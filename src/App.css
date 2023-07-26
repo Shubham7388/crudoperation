@@ -1,38 +1,80 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main-header {
+  font-family: "Montserrat", sans-serif;
+}
+.create-form label {
+  color: whitesmoke;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px !important;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #21212171;
+  color: whitesmoke;
+  flex-direction: column;
+}
+.yelloBtn {
+  background-color: gold;
+  color: black;
+  font-weight: bold;
+}
+.redBtn {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
+.theader {
+  background-color: gray;
+  color: black;
+}
+.redBtn:hover {
+  box-shadow: black 3px 3px 3px;
+  cursor: pointer;
+}
+.yelloBtn:hover {
+  box-shadow: black 3px 3px 3px;
+  cursor: pointer;
+}
+.act {
+  border: 2px solid rgb(232, 226, 243);
+  height: 50vh;
+  width: 40%;
+  background-color: rgb(218, 205, 205);
+  color: white;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.uphead {
+  height: 50px;
+  width: 100%;
+  border: 2px solid rgb(230, 18, 18);
+  background: aqua;
+  color: rgb(14, 5, 5);
+  border-radius: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn {
+  background-color: rgb(233, 157, 59);
+  color: black;
+  border-radius: 10px;
+  height: 30px;
+  width: 80px;
+  float: right;
+  margin: 25vh;
+}
+.btn:hover {
+  box-shadow: black 3px 3px 3px;
+  cursor: pointer;
 }
